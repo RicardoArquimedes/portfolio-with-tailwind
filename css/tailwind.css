@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn{
+        @apply inline-block bg-primary text-white py-4 px-6 rounded-full;
+    }
+}
